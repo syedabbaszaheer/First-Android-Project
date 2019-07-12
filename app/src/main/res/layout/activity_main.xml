@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp"
+        android:orientation="vertical">
+
+    <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/tony_stark_small"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S Abbas Zaheer"
+            android:layout_gravity="center"
+            android:textSize="24sp"
+            android:textColor="#222222"
+            android:textStyle="bold"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="abbaszaheerlko@gmail.com"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="#222222"
+            android:textStyle="bold"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+91 8840923478"
+            android:layout_gravity="center"
+            android:textSize="24sp"
+            android:textColor="#222222"
+            android:layout_marginBottom="14dp"
+            android:textStyle="bold"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="education"
+            android:textColor="#ffffff"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Work expierence"
+            android:textColor="#ffffff"/>
+</LinearLayout>

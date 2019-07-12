@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="24dp">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:src="@drawable/tony_stark_small"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/profilephoto"
+                android:layout_marginRight="8dp"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S Abbas Zaheer"
+                android:layout_gravity="center"
+                android:textSize="24sp"
+                android:textColor="#222222"
+                android:textStyle="bold"
+                android:id="@+id/nameText"
+                 android:layout_toRightOf="@+id/profilephoto"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="abbaszaheerlko@gmail.com"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="#222222"
+                android:textStyle="bold"
+                android:id="@+id/emailText"
+                android:layout_toRightOf="@+id/profilephoto"
+                android:layout_below="@+id/nameText"
+                />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+91 8840923478"
+                android:layout_gravity="center"
+                android:textSize="24sp"
+                android:textColor="#222222"
+                android:layout_marginBottom="14dp"
+                android:textStyle="bold"
+                 android:id="@+id/phoneNumberText"
+                android:layout_toRightOf="@+id/profilephoto"
+        android:layout_below="@+id/emailText"/>
+    </RelativeLayout>
+      
+     <LinearLayout android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                    android:orientation="vertical">
+         <Button
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="education"
+                 android:textColor="#ffffff"
+                 android:id="@+id/educa"/>
+         <Button
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="Work expierence"
+                 android:textColor="#ffffff"
+                 android:id="@+id/work"/>
+     </LinearLayout>
+</LinearLayout>

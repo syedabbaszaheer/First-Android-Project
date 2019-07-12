@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp"
+        android:orientation="vertical">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Code Chief (coding in Java)"
+
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:textColor="#222222"
+            android:textStyle="bold"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="**** star rating "
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:textColor="#555555"
+            android:layout_marginBottom="5dp"/>
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#555555"
+            android:layout_marginBottom="5dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android App Develoopment"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:textColor="#222222"
+            android:textStyle="bold"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Developed Apps with XML AND KOTLIN"
+
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:textColor="#555555"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#555555"
+            android:layout_marginBottom="5dp"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Machine Learning"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:textColor="#222222"
+            android:textStyle="bold"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Machine learning using python"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:textColor="#222222"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#555555"
+            android:layout_marginBottom="5dp"/>
+
+</LinearLayout>
